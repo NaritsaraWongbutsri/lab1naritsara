@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme:
-            ColorScheme.fromSeed(seedColor: Color.fromARGB(135, 206, 235, 2)),
+            ColorScheme.fromSeed(seedColor: Color.fromARGB(133, 0, 255, 136)),
         useMaterial3: true,
       ),
       home: MyAppPage(),
@@ -53,7 +53,8 @@ class MyAppPage extends StatelessWidget {
     bool isHighlight = name == "นริศรา วงค์บุตรศรี 643450328-8";
     return Container(
       padding: const EdgeInsets.all(10),
-      color: isHighlight ? Color.fromARGB(255, 215, 0, 0) : Colors.transparent,
+      color:
+          isHighlight ? Color.fromARGB(255, 255, 251, 0) : Colors.transparent,
       child: Row(
         children: [
           Image(
